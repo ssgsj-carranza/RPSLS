@@ -2,6 +2,7 @@ from players import Players
 from gestures import Choices
 import random
 
+
 class Computer:
     def __init__(self):
         super().__init__()
@@ -31,7 +32,7 @@ class Computer:
                 print("You win")
             else:
                 print("You lose..")
-        elif user_action == "spock"
+        elif user_action == "spock":
             if computer_action == "scissors" or "rock":
                 print("You win")
             else:

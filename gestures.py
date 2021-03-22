@@ -8,6 +8,6 @@ class Gesture:
 
 class Choices:
     def __init__(self):
-        self.Gesture = list[]
+        self.Gesture = list()
 
 

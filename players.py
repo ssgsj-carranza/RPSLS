@@ -1,15 +1,18 @@
+from player2 import Computer
+from individual_player import User
+
 class Players:
-    def __init__(self, user_action, comp_action):
+    def __init__(self, user_action, computer_action):
         self.player = user_action
-        self.computer = comp_action
+        self.computer = computer_action
 
     def user_choice(self):
         user_action = input("Enter a choice")
         return user_action
 
     def comp_choice(self):
-        comp_action = input("Choose gesture")
-        return comp_action
+        computer_action = input("Choose gesture")
+        return computer_action
 
 
 
