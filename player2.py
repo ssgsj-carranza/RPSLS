@@ -15,24 +15,24 @@ class Computer:
             if computer_action == "scissors" or "lizard":
                 print("You win")
             else:
-                print("You lose")
+                print("You lose..")
         elif user_action == "paper":
             if computer_action == "rock" or "spock":
                 print("You win")
             else:
-                print("You lose")
+                print("You lose..")
         elif user_action == "scissors":
             if computer_action == "paper" or "lizard":
                 print("You win")
             else:
-                print("You lose")
+                print("You lose..")
         elif user_action == "lizard":
             if computer_action == "paper" or "spock":
                 print("You win")
             else:
-                print("You lose")
+                print("You lose..")
         elif user_action == "spock"
             if computer_action == "scissors" or "rock":
                 print("You win")
             else:
-                print("You lose")
+                print("You lose..")
