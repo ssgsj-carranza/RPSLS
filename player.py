@@ -1,13 +1,12 @@
-from players import Players
 from gestures import Choices
 
 
-class User:
+class User():
     def __init__(self):
         super().__init__()
 
     def make_choice(self):
-        user_action = Choices()
+        user_action = Choices().Gesture()
         print(f'user chose {user_action}')
         if computer_action == user_action:
             print(f'Both users selected {user_action}. Draw')

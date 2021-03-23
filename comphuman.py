@@ -1,4 +1,3 @@
-from players import Players
 from gestures import Choices
 import random
 

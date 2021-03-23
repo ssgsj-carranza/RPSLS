@@ -1,5 +1,5 @@
-from player2 import Computer
-from individual_player import User
+from comphuman import Computer
+from player import User
 
 class Players:
     def __init__(self, user_action, computer_action):
@@ -9,7 +9,7 @@ class Players:
     def user_choice(self):
         user_action = input("Enter a choice")
         return user_action
-    
+
 
     def comp_choice(self):
         computer_action = input("Choose gesture")

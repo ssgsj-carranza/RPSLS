@@ -11,6 +11,12 @@ class Choices:
         self.Gesture = list()
         self.Gesture += ["rock", "paper", "scissors", "lizard", "spock"]
 
+    def is_valid(self, correct_value):
+        if correct_value in self.Gesture:
+            return True
+        else:
+            return False
+
     def show_choices(self):
         print(self.Gesture)
 
