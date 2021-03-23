@@ -1,4 +1,4 @@
-from comphuman import Computer
+from computer import Computer
 from player import User
 
 class Players:

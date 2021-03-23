@@ -6,6 +6,7 @@ class Gesture:
         self.choice4 = "lizard"
         self.choice5 = "spock"
 
+
 class Choices:
     def __init__(self):
         self.Gesture = list()
