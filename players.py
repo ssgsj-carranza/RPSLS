@@ -9,6 +9,7 @@ class Players:
     def user_choice(self):
         user_action = input("Enter a choice")
         return user_action
+    
 
     def comp_choice(self):
         computer_action = input("Choose gesture")

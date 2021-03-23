@@ -9,5 +9,10 @@ class Gesture:
 class Choices:
     def __init__(self):
         self.Gesture = list()
+        self.Gesture += ["rock", "paper", "scissors", "lizard", "spock"]
+
+    def show_choices(self):
+        print(self.Gesture)
+
 
 
