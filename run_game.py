@@ -10,10 +10,12 @@ class RunGame:
         # self.choose_gesture()
 
     def welcome_message(self):
-        print("Welcome to RPSLS")
+        input("Welcome to RPSLS! Press enter to start")
+        print()
 
     def display_rules(self):
         print("Choose your gesture, best out of 3")
+
 
     def run_game(self, player1, player2 ):
         while player1.rounds_won < 3 and player2.rounds_won < 3:
