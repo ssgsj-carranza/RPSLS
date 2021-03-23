@@ -1,6 +1,7 @@
 from player import Player
 from human import Human
 from comphuman import Computer
+from gestures import Choices
 
 class RunGame:
 
@@ -16,12 +17,14 @@ class RunGame:
     def display_rules(self):
         print("Choose your gesture, best out of 3")
 
-    def run_game(self, player1, player2 ):
+    def run_game(self, player1, player2):
         while player1.rounds_won < 3 and player2.rounds_won < 3:
             player1choice = player1.get_gesture()
             player2choice = player2.get_gesture()
             if player1choice == player2choice:
                 print(f'Both users selected {player1choice}. Draw')
+            if player1choice and player2choice not in Choices().Gesture:
+                print("Enter valid gesture")
             elif player2choice == "rock":
                 if player1choice == "scissors" or player1choice == "lizard":
                     print(f'You win {player2choice} beats {player1choice}')

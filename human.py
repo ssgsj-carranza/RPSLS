@@ -9,6 +9,7 @@ class Human(Player):
     def get_gesture(self):
         # player2choice = input("Choose gesture ")
         # while player2choice not in Choices().Gesture:
-        #     player2choice = input("Please enter valid input ")
-        #     return input()
+        #     input("Please enter valid gesture ")
+        # if input is Choices().Gesture:
+        #     return input("Choose gesture")
         return input("Choose gesture ")

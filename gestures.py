@@ -16,8 +16,8 @@ class Choices:
         if correct_value in self.Gesture:
             return True
         else:
+
             return False
-            # print("Enter valid input")
 
     def show_choices(self):
         print(self.Gesture)
