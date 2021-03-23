@@ -8,4 +8,6 @@ class Computer(Player):
         super().__init__()
 
     def get_gesture(self):
-        print(f'choose gesture {random.choice(Choices().Gesture)}')
+        computer_choice = random.choice(Choices().Gesture)
+        print('computer chose....')
+        return computer_choice
